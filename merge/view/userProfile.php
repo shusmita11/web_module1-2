@@ -18,7 +18,7 @@ if ($email) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
-    <link rel="stylesheet" href="../assets/profileStyle.css">
+    <link rel="stylesheet" href="../asset/CSS/profileStyle.css">
 </head>
 <body>
     <div class="container">
@@ -61,6 +61,6 @@ if ($email) {
         <a href="changePassword.php" class="update-link" id="changePassword">Change Password</a>
     </div>
 
-    <script src="../assets/JS/profileValidation.js"></script>
+    <script src="../asset/JS/profileValidation.js"></script>
 </body>
 </html>

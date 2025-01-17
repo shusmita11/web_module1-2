@@ -38,11 +38,6 @@ function validatePassword(password) {
         return false; // Stop form submission if validation fails
     }
 
-    if (!hasLetter) {
-        alert("Password must contain at least one letter.");
-        return false; // Stop form submission if validation fails
-    }
-
     if (!hasSpecialChar) {
         alert("Password must contain at least one special character.");
         return false; // Stop form submission if validation fails

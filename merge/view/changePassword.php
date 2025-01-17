@@ -12,7 +12,7 @@ if (!isset($_SESSION['email'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change Password</title>
-    <link rel="stylesheet" href="../assets/profileStyle.css">
+    <link rel="stylesheet" href="../asset/CSS/profileStyle.css">
 </head>
 <body>
     <div class="container">
@@ -31,6 +31,6 @@ if (!isset($_SESSION['email'])) {
         </form>
     </div>
     
-    <script src="../assets/JS/profileValidation.js"></script>
+    <script src="../asset/JS/profileValidation.js"></script>
 </body>
 </html>
